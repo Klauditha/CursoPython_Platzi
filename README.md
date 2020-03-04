@@ -78,6 +78,14 @@ En los diccionarios tienes un grupo de datos con un formato: la primera cadena o
     `dir(Li)`
 * Información sobre una función o librería: `help(sorted)`
 
+### Matematicas complejas
+El orden en que se evaluan son:
+* Parentesis
+* Exponentes
+* Multiplicacion/Division
+* Adicion/Sustraccion
+Una forma fácil de recordar éste orden es usando el acrónimo PEMDAS (ParentesisExponentesMultiplicaciónDivisiónAdiciónSustracción)
+
 ## Clases
 Clases es uno de los conceptos con más definiciones en la programación, pero en resumen sólo son la representación de un objeto. Para definir la clase usas class y el nombre. En caso de tener parámetros los pones entre paréntesis.
 
