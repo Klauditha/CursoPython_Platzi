@@ -133,11 +133,27 @@ Ejemplo:
     `   print x `
     `	x += 1`
 
+## f-strings
+Disponible desde Python 3.6
+Ejemplo1 - En textos:
+    `course = 'Python'` 
+    `platform = 'Platzi'` 
+    `print(f"El nuevo curso de {course} en {platform} está increíble")` 
+    El nuevo curso de Python en Platzi está increíble
+    `` 
+Ejemplo2 - Evaluados dentro de la ejecución:
+    `print(f"{100 + 28}")` 
+    128
+    `print(f"{25 * 7}")` 
+    175
 
-
-
-
-
+Ejemplo3 - Diviendo mensajes en multiples lineas:
+    `message = (`
+    `    f"Nuevo curso de {course} "`
+    `    f"disponible en {platform} "`
+    `)`
+    `print(message)`
+    Nuevo curso de Python disponible en Platzi
 
 
 
