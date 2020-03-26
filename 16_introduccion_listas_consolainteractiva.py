@@ -6,5 +6,5 @@ amigos.append('pedro')
 amigos.append('enrique')
 amigos.append('alberto')
 
-amigos[0] // pedro
-amigos[2]  //alberto
+amigos[0] #pedro
+amigos[2]  #alberto
